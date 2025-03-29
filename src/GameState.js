@@ -17,12 +17,12 @@ export const levels = [
     answer: "June",
     reward: 20,
   },
-  // {
-  //   id: 4,
-  //   question: "A gangster is found dead with '710 57735' written near him. What does it mean when flipped upside down?",
-  //   answer: "Elles",
-  //   reward: 25,
-  // },
+  {
+    id: 4,
+    question: "A gangster is found dead with '710 57735' written near him. What does it mean when flipped upside down?",
+    answer: "Elles",
+    reward: 25,
+  },
   {
     id: 5,
     question: "I walk in the shadows, feared by many. I take life without a trace. What am I?",

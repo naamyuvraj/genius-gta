@@ -26,20 +26,20 @@ export default function GameScreen() {
   };
 
   return (
-    <div className="bg-[url(public/grand-theft-auto-v-pc-anisotropic-filtering-001-4x.jpg)] opacity-90 flex flex-col items-center justify-center h-screen bg-gray-900 text-white ">
+    <div className="bg-[url(/assets/grand-theft-auto-v-pc-anisotropic-filtering-001-4x.jpg)] opacity-90 flex flex-col items-center justify-center h-screen bg-gray-900 text-white ">
       <h1 className="text-3xl font-bold mb-4">Genius GTA</h1>
       <p className="mb-4 bg-yellow-500 p-4 text-white font-bold text-center rounded-xl">Coins: {coins}</p>
 
       <div className="flex justify-between w-3/4">
         <div className="w-1/3">
-          <img src="public/lester.png" alt="Lester" className="w-full" />
+          <img src="/assets/lester.png" alt="Lester" className="w-full" />
           <p className="text-center mt-2">Lester</p>
         </div>
 
         <QuestionBox level={levels[currentLevel]} onAnswer={handleAnswer} />
 
         <div className="w-1/3">
-          <img src="public/miachel.png" alt="Michael" className="w-full" />
+          <img src="/assets/miachel.png" alt="Michael" className="w-full" />
           <p className="text-center mt-2">Michael</p>
         </div>
       </div>
