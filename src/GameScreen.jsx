@@ -26,9 +26,9 @@ export default function GameScreen() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
+    <div className="bg-[url(public/grand-theft-auto-v-pc-anisotropic-filtering-001-4x.jpg)] opacity-90 flex flex-col items-center justify-center h-screen bg-gray-900 text-white ">
       <h1 className="text-3xl font-bold mb-4">Genius GTA</h1>
-      <p className="mb-4">Coins: {coins}</p>
+      <p className="mb-4 bg-yellow-500 p-4 text-white font-bold text-center rounded-xl">Coins: {coins}</p>
 
       <div className="flex justify-between w-3/4">
         <div className="w-1/3">
