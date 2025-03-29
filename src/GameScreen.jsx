@@ -32,14 +32,14 @@ export default function GameScreen() {
 
       <div className="flex justify-between w-3/4">
         <div className="w-1/3">
-          <img src="/src/assets/lester.png" alt="Lester" className="w-full" />
+          <img src="public/lester.png" alt="Lester" className="w-full" />
           <p className="text-center mt-2">Lester</p>
         </div>
 
         <QuestionBox level={levels[currentLevel]} onAnswer={handleAnswer} />
 
         <div className="w-1/3">
-          <img src="src/assets/miachel.png" alt="Michael" className="w-full" />
+          <img src="public/miachel.png" alt="Michael" className="w-full" />
           <p className="text-center mt-2">Michael</p>
         </div>
       </div>
