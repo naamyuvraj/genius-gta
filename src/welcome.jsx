@@ -4,8 +4,8 @@ export default function Welcome() {
   const navigate = useNavigate(); // Hook for navigation
 
   return (
-    <div className="min-h-screen flex flex-col justify-center  bg-[url('/assets/bg.jpg')] bg-cover bg-center text-white">
-      <div className="bg-black opacity-70 p-8 rounded-lg shadow-xl text-center max-w-2xl ml-10">
+    <div className="min-h-screen flex flex-col justify-center item-center bg-[url('/assets/bg2.jpg')] bg-cover bg-center text-white">
+      <div className="bg-black opacity-70 p-8 rounded-lg shadow-xl text-center max-w-2xl ml-auto mr-auto">
         <h1 className="text-5xl font-extrabold text-yellow-400 drop-shadow-lg">
           GENIUS <span className="text-red-600">GTA</span>
         </h1>
