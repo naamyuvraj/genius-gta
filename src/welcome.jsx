@@ -1,8 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 export default function Welcome() {
-  const navigate = useNavigate(); // Hook for navigation
-
+  const navigate = useNavigate(); 
   return (
     <div className="min-h-screen flex flex-col justify-center item-center bg-[url('/assets/bg2.jpg')] bg-cover bg-center text-white">
       <div className="bg-black opacity-70 p-8 rounded-lg shadow-xl text-center max-w-2xl ml-auto mr-auto">
